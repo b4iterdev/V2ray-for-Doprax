@@ -17,7 +17,10 @@
 			"streamSettings": {
 				"network": "ws",
 				"wsSettings": {
-					"path": "VMESS_WSPATH"
+					"path": "VMESS_WSPATH",
+					"headers": {
+						"Host": "dl.ops.kgvn.garenanow.com"
+					}
 				}
 			}
 		},
@@ -34,7 +37,10 @@
 			"streamSettings": {
 				"network": "ws",
 				"wsSettings": {
-					"path": "VLESS_WSPATH"
+					"path": "VLESS_WSPATH",
+					"headers": {
+						"Host": "dl.ops.kgvn.garenanow.com"
+					}
 				}
 			}
 		}
